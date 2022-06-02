@@ -2,8 +2,8 @@ import java.util.Arrays;
 
 public class Java10_CompareArrays {
     public static void main(String[] args) {
-        Integer ar[] = {2,3,5,7,9};
-        Integer ar1[] = {3,7,9,2,5};
+        int ar[] = {2,3,5,7,9};
+        int ar1[] = {3,7,9,2,5};
 
         if(ar.length!=ar1.length){
             System.out.println("Not equal");
