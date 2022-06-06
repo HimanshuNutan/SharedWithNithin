@@ -1,5 +1,6 @@
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.stream.IntStream;
 
 public class Java22_ArrayRemoveDuplicates {
     public static void main(String[] args) {
@@ -14,5 +15,8 @@ public class Java22_ArrayRemoveDuplicates {
         for(int i:set){
             ar[j]=i;j++;
         }
+
+        Integer[] ar1=set.toArray(new Integer[j]);
+        System.out.println(Arrays.toString(ar1));
     }
 }
