@@ -10,16 +10,6 @@ public class Java24_VendingMachine {
     }
 }
 
-class Coin {
-    String name;
-    int value;
-}
-
-class Item {
-    String name;
-    int cost;
-}
-
 class Machine {
     private static final int MAX_CAPACITY = 5;
     HashMap<ITEM, Integer> items = new HashMap<>();
